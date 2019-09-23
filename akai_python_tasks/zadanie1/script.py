@@ -1,7 +1,7 @@
 # coding=utf-8
 
 # input: array with multiple strings
-# expected output: rank of the 3 most often repeated words in given strings, case insensitive
+# expected output: rank of the 3 most often repeated words in given set of strings, case insensitive
 
 sentences = [
     'Taki mamy klimat',
