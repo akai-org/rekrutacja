@@ -9,3 +9,7 @@ Kandydaci na członków koła mają do wyboru kilka pakietów zadań. Każdy z p
 Zadania są ułożone tak, aby były niezwykle proste do rozwiązania. Wszystko czego wymagamy od kandydata to determinacja i za pomocą tych zadań chcemy sprawdzić, czy kandydat takową posiada. Zadania można rozwiązać w parę chwil korzystając z Google. 
 
 Powodzenia!
+
+## Dostarczenie rozwiązań
+
+Rozwiązania prosimy przesyłać w formie linków do repozytorium Git na kontakt@akai.org.pl, w temacie umieszczając słowo `Rekrutacja` oraz język rozwiązań.
