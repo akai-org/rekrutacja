@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener {
-            onClick()
+            onButtonClick()
 
         }
     }
@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
             Podpowiedź poczytaj o Intent.
      */
-    private fun onClick() {
+    private fun onButtonClick() {
         textView.text = editText.text.toString()
     }
 
