@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="filters">
+        <h1>Pokedex</h1>
+        <form id="form-filters">
+            <label><input id="grass" type="checkbox" checked/><span>grass</span></label>
+            <label><input id="poison" type="checkbox" checked/><span>poison</span></label>
+            <label><input id="fire" type="checkbox" checked/><span>fire</span></label>
+            <label><input id="flying" type="checkbox" checked/><span>flying</span></label>
+            <label><input id="bug" type="checkbox" checked/><span>bug</span></label>
+            <label><input id="water" type="checkbox" checked/><span>water</span></label>
+            <label><input id="normal" type="checkbox" checked/><span>normal</span></label>
+            <label><input id="ground" type="checkbox" checked/><span>ground</span></label>
+            <label><input id="electric" type="checkbox" checked/><span>electric</span></label>
+            <label><input id="fairy" type="checkbox" checked/><span>fairy</span></label>
+            <label><input id="fighting" type="checkbox" checked/><span>fighting</span></label>
+            <label><input id="psychic" type="checkbox" checked/><span>psychic</span></label>
+            <label><input id="rock" type="checkbox" checked/><span>rock</span></label>
+            <label><input id="steal" type="checkbox" checked/><span>steal</span></label>
+            <label><input id="ice" type="checkbox" checked/><span>ice</span></label>
+            <label><input id="ghost" type="checkbox" checked/><span>ghost</span></label>
+            <label><input id="dragon" type="checkbox" checked/><span>dragon</span></label>
+          <div>
+            <input id="pokemon-name" type="text" placeholder="Pokemon name" />
+            <button type="submit">Filter</button>
+          </div>
+        </form>
+      </section>
+      <section class="pokemons"></section>
+    </main>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
