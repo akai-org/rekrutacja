@@ -7,6 +7,21 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/app_name"
+        android:textAlignment="center" />
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" />
 
     <Button
         android:id="@+id/button"
@@ -15,19 +30,7 @@
         android:layout_margin="8dp"
         android:text="Przycisk" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:text="@string/app_name"
-        android:textAlignment="center" />
 
     <!--2.a TODO Kolejnym zadaniem jest wstawienie nowego przycisku
                 do tego widoku. Przycisk należy wstawić tak, aby
