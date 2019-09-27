@@ -1,4 +1,4 @@
-package rozklad.akai.org.pl.rekrutacja;
+package com.example.rekrutacja;
 
 import android.os.Bundle;
 import android.view.View;
