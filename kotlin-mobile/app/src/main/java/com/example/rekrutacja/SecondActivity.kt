@@ -3,13 +3,15 @@ package com.example.rekrutacja
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
-import kotlinx.android.synthetic.main.activity_second.*
+import com.example.rekrutacja.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
+    lateinit var binding: ActivitySecondBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        binding = ActivitySecondBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         /*3. TODO Poniżej znajduje się kod, który obsługuje kliknięcia dwóch przycisków,
                 jednak na wyświetlającym się widoku nie są one podpisane. Twoim
                 zadaniem jest wywnioskowanie co kliknięcie na poszczególny przycisk zmienia
@@ -19,11 +21,13 @@ class SecondActivity : AppCompatActivity() {
                 Podpisanie - chodzi o android:text.
          */
 
-        firstButton.setOnClickListener {
-            image.isVisible = false
-        }
-        secondButton.setOnClickListener {
-            image.isVisible = true
+        binding.apply {
+            firstButton.setOnClickListener {
+                image.isVisible = false
+            }
+            secondButton.setOnClickListener {
+                image.isVisible = true
+            }
         }
 
         /*4. TODO W tym activity znajduje się jeszcze jeden przycisk niestety kliknięcie
