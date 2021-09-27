@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     /*1.TODO Pierwszym z zadań jest implementacja metody, w taki sposób, aby
-            kliknięcie przycisku powodowało otwarcie activity SeciondActivity, gdy
+            kliknięcie przycisku powodowało otwarcie activity SecondActivity, gdy
             wpisanym przez użytkownika tekstem jest 'AKAI'.
             Kolejne zadanie znajdziesz w pliku activity_main.xml.
 
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             wstawienie przerobionego tekstu do textView. Nie zapomnij dodać do metody
             OnCreate() OnClickListenera słuchającego na kliknięcia wstawionego przez Ciebie
             przycisku.
-            Kolejne zadanie czeka na Ciebie w pliku SecondActiviy
+            Kolejne zadanie czeka na Ciebie w pliku SecondActivity
      */
     private fun onYourButtonClick() {
 
