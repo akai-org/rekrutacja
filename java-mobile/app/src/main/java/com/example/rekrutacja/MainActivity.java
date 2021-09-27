@@ -2,27 +2,22 @@ package com.example.rekrutacja;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rekrutacja.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
 
-    private TextView textView;
-    private Button button;
-    private EditText editText;
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        textView = findViewById(R.id.textView);
-        button = findViewById(R.id.button);
-        editText = findViewById(R.id.editText);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        button.setOnClickListener(new View.OnClickListener() {
+        binding.button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -32,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*1.TODO Pierwszym z zadań jest implementacja metody, w taki sposób, aby
-          kliknięcie przycisku powodowało otwarcie activity SeciondActivity, gdy
+          kliknięcie przycisku powodowało otwarcie activity SecondActivity, gdy
           wpisanym przez użytkownika tekstem jest 'AKAI'.
           Kolejne zadanie znajdziesz w pliku activity_main.xml.
 
           Podpowiedź poczytaj o Intent.
    */
     private void onButtonClick() {
-        textView.setText(editText.getText().toString());
+        binding.textView.setText(binding.editText.getText().toString());
     }
 
     /*2.b TODO Druga część tego zadania polega na implementacji metody, która zmienia

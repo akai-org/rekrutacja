@@ -2,24 +2,21 @@ package com.example.rekrutacja;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rekrutacja.databinding.ActivitySecondBinding;
+
 public class SecondActivity extends AppCompatActivity {
 
-    private Button firstButton;
-    private Button secondButton;
-    private ImageView image;
+    private ActivitySecondBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
-        firstButton = findViewById(R.id.firstButton);
-        secondButton = findViewById(R.id.secondButton);
-        image = findViewById(R.id.image);
+        binding = ActivitySecondBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
    /*3. TODO Poniżej znajduje się kod, który obsługuje kliknięcia dwóch przycisków,
                 jednak na wyświetlającym się widoku nie są one podpisane. Twoim
                 zadaniem jest wywnioskowanie co kliknięcie na poszczególny przycisk zmienia
@@ -29,16 +26,16 @@ public class SecondActivity extends AppCompatActivity {
                 Podpisanie - chodzi o android:text.
          */
 
-        firstButton.setOnClickListener(new View.OnClickListener() {
+        binding.firstButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                image.setVisibility(View.GONE);
+                binding.image.setVisibility(View.GONE);
             }
         });
-        secondButton.setOnClickListener(new View.OnClickListener() {
+        binding.secondButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                image.setVisibility(View.VISIBLE);
+                binding.image.setVisibility(View.VISIBLE);
             }
         });
 
