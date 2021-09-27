@@ -1,18 +1,19 @@
 package com.example.rekrutacja
 
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.rekrutacja.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        button.setOnClickListener {
+        binding.button.setOnClickListener {
             onButtonClick()
 
         }
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             Podpowiedź poczytaj o Intent.
      */
     private fun onButtonClick() {
-        textView.text = editText.text.toString()
+        binding.textView.text = binding.editText.text.toString()
     }
 
     /*2.b TODO Druga część tego zadania polega na implementacji metody, która zmienia
