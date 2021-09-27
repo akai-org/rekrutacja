@@ -1,3 +1,5 @@
+package pl.akai
+
 fun main() {
     val sentences = arrayOf(
         "Taki mamy klimat",
@@ -18,7 +20,7 @@ fun main() {
         "Nie powinno sprawić żadnego problemu, bo Google jest dozwolony"
     )
 
-    /*TODO Twoim zadaniem jest wypisanie na konsoli trzech najczęściej występujących słów
+    /* TODO Twoim zadaniem jest wypisanie na konsoli trzech najczęściej występujących słów
             w tablicy 'sentences' wraz z ilością ich wystąpień..
 
             Przykładowy wynik:

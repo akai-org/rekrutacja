@@ -1,4 +1,4 @@
-package com.company;
+package pl.akai;
 
 public class Main {
 
@@ -22,7 +22,7 @@ public class Main {
     };
 
     public static void main(String[] args) {
-        /*TODO Twoim zadaniem jest wypisanie na konsoli trzech najczęściej występujących słów
+        /* TODO Twoim zadaniem jest wypisanie na konsoli trzech najczęściej występujących słów
                 w tablicy 'sentences' wraz z ilością ich wystąpień..
 
                 Przykładowy wynik:
