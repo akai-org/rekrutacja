@@ -7,5 +7,5 @@ class Exporter:
         pass
 
     def save_tasks(self, tasks):
-        # zapisz taski do pliku tutaj
+        # TODO zapisz taski do pliku tutaj
         pass

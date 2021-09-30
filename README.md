@@ -1,6 +1,6 @@
-# Rekrutacja 2019
+# Rekrutacja 2021
 
-Repozytorium z paczkami zadań na rekrutację 2019. 
+Repozytorium z paczkami zadań na rekrutację 2021. 
 
 ## Zasady
 
