@@ -19,7 +19,8 @@ public class Main {
            do projektu są dołaczone 3 najpopularniejsze biblioteki do parsowania JSONów
            do obiektów Javy - Gson, Org.Json, Jackson. Możesz wykorzystać dowolną z nich
         3. Po sparsowaniu JSONu do obiektów Javy, uzupełnij program o funkcję wypisującą 3 autorów z
-           najwyższą średnią ocen (wypisz także średnie ocen)
+           najwyższą średnią ocen. Na przykład, gdy osoba X jest autorem książki A z oceną 9 i B z oceną 8,
+           to powinna zostać wyświetlona informacja: X - 8.5
 
        Projekt został utworzony przy użyciu najnowszej Javy 17,
        jednakże nic nie stoi na przeszkodzie użycia innej wersji jeśli chcesz
