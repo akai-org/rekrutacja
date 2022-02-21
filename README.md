@@ -1,6 +1,6 @@
-# Rekrutacja 2021
+# Rekrutacja 2022
 
-Repozytorium z paczkami zadań na rekrutację 2021. 
+Repozytorium z paczkami zadań na rekrutację 2022. 
 
 ## Zasady
 
