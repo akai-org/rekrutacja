@@ -59,10 +59,7 @@ class MainActivity : ComponentActivity() {
                         )
                         Spacer(modifier = Modifier.height(4.dp))
                         val context = LocalContext.current
-                        Button(onClick = {
-                            val intent = Intent(context, SecondActivity::class.java)
-                            startActivity(intent)
-                        }) {
+                        Button(onClick = { } ) {
                             Text(text = "Przycisk")
                         }
                     }
