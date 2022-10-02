@@ -23,7 +23,6 @@ class SecondActivity: ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             KotlinandroidjetpackconmposenewTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
@@ -36,13 +35,13 @@ class SecondActivity: ComponentActivity() {
                             .fillMaxSize()
                     ) {
                         /*3. TODO Poniżej znajduje się kod, który obsługuje kliknięcia dwóch przycisków,
-               jednak na wyświetlającym się widoku nie są one podpisane. Twoim
-               zadaniem jest wywnioskowanie co kliknięcie na poszczególny przycisk zmienia
-               i adekwatne podpisanie tych przycisków.
-               Kolejne zadanie znajduje się poniżej.
+                               jednak na wyświetlającym się widoku nie są one podpisane. Twoim
+                               zadaniem jest wywnioskowanie co kliknięcie na poszczególny przycisk zmienia
+                               i adekwatne podpisanie tych przycisków.
+                               Kolejne zadanie znajduje się poniżej.
 
-               Podpisanie - chodzi o dodanie composabla Text.
-        */
+                               Podpisanie - chodzi o dodanie composabla Text.
+                        */
                         Image(
                             painter = painterResource(id = R.drawable.ic_baseline_android_24),
                             contentDescription = "",
@@ -63,17 +62,17 @@ class SecondActivity: ComponentActivity() {
                         Spacer(modifier = Modifier.height(16.dp))
 
                         /*4. TODO W tym activity znajduje się jeszcze jeden przycisk niestety kliknięcie
-                na niego nic nie robi. Twoim zadaniem jest implementacja kliknięcia w taki sposób,
-                aby jak obrazek jest widoczy przycisk chował obrazek, w przeciwnym wypadku,
-                gdy obrazek jest schowany po kliknięciu obrazek ma się pojawić. Dodatkowo należy
-                przerobić onClicki poprzednich obrazków tak, aby np. Klikając na przycisk do chowania
-                obrazka, chował on obrazek, a w przypadku kliknięcia, gdy obrazek jest niewidoczny
-                wyświetlał informację o tym, obrazek jest już niewidoczny (np. za pomocą Toast lub
-                SnackBar lub AlertDialog). Podobnie dla drugiego przycisku odpowiedzialnego za
-                wyświetlanie obrazka. Jednocześnie zmień widok tego przycisku tak, aby nie wszystkie
-                litery, były pisane wielką literą.
-                Kolejne zadanie znajduje się poniżej.
-         */
+                                na niego nic nie robi. Twoim zadaniem jest implementacja kliknięcia w taki sposób,
+                                aby jak obrazek jest widoczy przycisk chował obrazek, w przeciwnym wypadku,
+                                gdy obrazek jest schowany po kliknięciu obrazek ma się pojawić. Dodatkowo należy
+                                przerobić onClicki poprzednich obrazków tak, aby np. Klikając na przycisk do chowania
+                                obrazka, chował on obrazek, a w przypadku kliknięcia, gdy obrazek jest niewidoczny
+                                wyświetlał informację o tym, obrazek jest już niewidoczny (np. za pomocą Toast lub
+                                SnackBar lub AlertDialog). Podobnie dla drugiego przycisku odpowiedzialnego za
+                                wyświetlanie obrazka. Jednocześnie zmień widok tego przycisku tak, aby nie wszystkie
+                                litery, były pisane wielką literą.
+                                Kolejne zadanie znajduje się poniżej.
+                         */
 
                         /*5. TODO Ostatnie zadanie polega na dodaniu przycisku pozwalającego na przejście spowrotem
                                 do MainActivity. Tutaj jednak nie chcemy, abyś otwierał nowe activity, tylko po
@@ -83,12 +82,12 @@ class SecondActivity: ComponentActivity() {
                          */
 
                         /* TODO Zadanie Dodatkowe. Tutaj masz zupełną dowolność, jeśli masz jeszcze czas
-                 i ochotę zrób coś kreatywnego, ale jednocześnie prostego,
-                 pamiętaj jednak, aby nie naruszyć tym kodu,
-                 który realizuje poprzednich zadań. Nie jest to zadanie obowiązkowe.
-                 Docelowo na przykład nawigacja między ekranami, które nie wymagają wyraźnej sepracaji w Androidzie opiera się na fragmentach
-                 Poczytaj o Fragmentach oraz o Funkcjach Composable jako sposobie na nawigację między ekranami
-          */
+                             i ochotę zrób coś kreatywnego, ale jednocześnie prostego,
+                             pamiętaj jednak, aby nie naruszyć tym kodu,
+                             który realizuje poprzednich zadań. Nie jest to zadanie obowiązkowe.
+                             Docelowo na przykład nawigacja między ekranami, które nie wymagają wyraźnej sepracaji w Androidzie opiera się na fragmentach
+                             Poczytaj o Fragmentach oraz o Funkcjach Composable jako sposobie na nawigację między ekranami
+                      */
                         Button(onClick = {  }) {
 
                         }
