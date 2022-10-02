@@ -85,8 +85,6 @@ class SecondActivity: ComponentActivity() {
                                 i ochotę zrób coś kreatywnego, ale jednocześnie prostego,
                                 pamiętaj jednak, aby nie naruszyć tym kodu,
                                 który realizuje poprzednich zadań. Nie jest to zadanie obowiązkowe.
-                                Docelowo na przykład nawigacja między ekranami, które nie wymagają wyraźnej sepracaji w Androidzie opiera się na fragmentach
-                                Poczytaj o Fragmentach oraz o Funkcjach Composable jako sposobie na nawigację między ekranami
                       */
                         Button(onClick = {  }) {
 
