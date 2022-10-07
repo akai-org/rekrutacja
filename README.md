@@ -12,4 +12,4 @@ Powodzenia!
 
 ## Dostarczenie rozwiązań
 
-Rozwiązania prosimy przesyłać w formie linków do repozytorium Git na rekrutacja@akai.org.pl, w temacie umieszczając słowo `Rekrutacja` oraz język rozwiązań.
+Rozwiązania prosimy przesyłać poprzez wypełnienie formularza dostępnego pod adresem https://forms.gle/AnXKm6bMcAqi88gi9.
