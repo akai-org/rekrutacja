@@ -1,4 +1,4 @@
-# Rekrutacja 2022
+# Rekrutacja lato 2023
 
 Repozytorium z paczkami zadań na rekrutację 2022. 
 
