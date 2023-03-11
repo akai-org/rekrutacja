@@ -4,7 +4,7 @@ public class Main {
     /*
         Twoim zadaniem jest napisanie prostego programu do pobierania i transformowania danych
         udostępnianych przez API. Dokumentacje API możesz znależć pod poniższym linkiem:
-        https://akai-recruitment.herokuapp.com/documentation.html
+        https://akai-recruitment-api.prod.ang3r.pl/documentation.html
 
         Całe API zawiera jeden endpoint: https://akai-recruitment.herokuapp.com/book
         Endpoint ten zwraca liste książek zawierajacch informację takie jak:
