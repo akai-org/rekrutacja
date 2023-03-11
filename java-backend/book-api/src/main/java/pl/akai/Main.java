@@ -6,7 +6,7 @@ public class Main {
         udostępnianych przez API. Dokumentacje API możesz znależć pod poniższym linkiem:
         https://akai-recruitment-api.prod.ang3r.pl/documentation.html
 
-        Całe API zawiera jeden endpoint: https://akai-recruitment.herokuapp.com/book
+        Całe API zawiera jeden endpoint: https://akai-recruitment-api.prod.ang3r.pl/books
         Endpoint ten zwraca liste książek zawierajacch informację takie jak:
         - id
         - tytuł
