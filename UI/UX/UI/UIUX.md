@@ -13,7 +13,7 @@ Drogi kandydacie, przed Tobą ostatni krok do wejścia w studencki świat aplika
 ---
 
 ## Zadanie 1: Wireframes dla Klienta
-Zespół planuje wdrożenie nowego feature'a do swojej strony typu landing page. Chce zwiększyć zasięgi do potencjalnych nowych klientów. Aktualnie na stronie widnieje link, który przekierowuje użytkownika do poczty elektronicznej. Zespół chce przeprojektowac to rozwiązanie aby zbliżyc kontakt biznesowy z partnerami poprzez specjalny formularz kontaktowy.
+Zespół planuje wdrożenie nowego feature'a do swojej strony typu landing page. Chce zwiększyć zasięgi do potencjalnych nowych klientów. Aktualnie na stronie widnieje link, który przekierowuje użytkownika do poczty elektronicznej. Zespół chce przeprojektowac to rozwiązanie aby zbliżyć kontakt biznesowy z partnerami poprzez specjalny formularz kontaktowy.
 Formularz powinien zawierać pola kontaktowe takie jak:
 - adres mailowy klienta
 - temat, komunikacji między zespołem a potencjalnym klientem
