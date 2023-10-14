@@ -17,7 +17,7 @@ Zespół planuje wdrożenie nowego feature'a do swojej strony typu landing page.
 Formularz powinien zawierać pola kontaktowe takie jak:
 - adres mailowy klienta
 - temat, komunikacji między zespołem a potencjalnym klientem
-- pole tekstowe na treśc wiadomości (+/- 300 znaków)
+- pole tekstowe na treść wiadomości (+/- 300 znaków)
 - input typu checkbox do newslettera działu marketingu
 - przycisk do wysłania formularza
 
