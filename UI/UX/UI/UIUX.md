@@ -24,7 +24,7 @@ Formularz powinien zawierać pola kontaktowe takie jak:
 Wykonaj zestaw makiet, które po akceptacji klienta zostaną przekazane do zepołu deweloperskiego, odpowiadającego za wdrożenie wymagań działu biznesowego.
 ### Dodatkowym atutem będzie:
 - budowa prototypów przejścia przez formularz kontaktowy (wypełnienie pól, wysłanie formularza) - *user flow diagram*
-- zaprojektowanie osobnych stanów pól formularzy - wartoś formularza niezgodna z wzorcem, brak wypełnionych wymaganych pól formularza, przekroczenie limitu znaków wiadomości
+- zaprojektowanie osobnych stanów pól formularzy - wartość formularza niezgodna z wzorcem, brak wypełnionych wymaganych pól formularza, przekroczenie limitu znaków wiadomości
 
 ---
 
