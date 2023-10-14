@@ -34,7 +34,7 @@ Zespół AKAI ds. promocji wraz z zarządem podjął decyzję o ekspozycji marki
 - typografię wraz z rozpisanymi rozmiarami
 - paletę kolorów
 - zestaw podstawowych reużywalnych komponentów (dodatkowym atutem będzie uwzględnienie stanów komponentów)
-- jeśli chcesz możesz pokusic się o przygotowanie zarówno wariantów dla trybu **ciemnego** jak i **jasnego**.
+- jeśli chcesz możesz pokusić się o przygotowanie zarówno wariantów dla trybu **ciemnego** jak i **jasnego**.
 
 ---
 ## Dodatkowe informacje:
