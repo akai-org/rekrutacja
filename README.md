@@ -1,6 +1,6 @@
-# Rekrutacja lato 2023
+# Rekrutacja zima 2023
 
-Repozytorium z paczkami zadań na rekrutację 2022. 
+Repozytorium z paczkami zadań na rekrutację 2023. 
 
 ## Zasady
 
